@@ -1,0 +1,67 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	padding: 100px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+
+
+ */
+.wrapper {
+	padding: 80px 0;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper h1 {
+	text-align: center;
+}
+ .input-parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.countryName {
+	display: flex;
+	gap: 10px;
+	width: 70px;
+	text-align: center;
+	margin: 0 46%;
+	border: 1px solid black;
+	padding: 5px;
+}
+h2 {
+	text-align: center;
+}
+input {
+	width: 250px;
+	height: 40px;
+	padding: 0 20px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+button {
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: chartreuse;
+}
+button:active {
+	transform: scale(0.9);
+}
+.list {
+	display: flex;
+	justify-content: start;
+	gap: 10px;
+	font-size: 18px;
+}
